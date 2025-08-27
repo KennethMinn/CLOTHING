@@ -1,6 +1,6 @@
 export const catalog = {
-  Shoes: {
-    Adidas: [
+  shoes: {
+    adidas: [
       {
         name: "Samba",
         preview: "/samba/samba_preview.jpeg",
@@ -51,6 +51,6 @@ export const catalog = {
       },
     ],
   },
-  Pants: {},
-  Tops: {},
+  pants: {},
+  tops: {},
 };
