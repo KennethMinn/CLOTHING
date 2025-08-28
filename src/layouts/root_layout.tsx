@@ -5,7 +5,9 @@ const RootLayout = () => {
   return (
     <div className=" space-y-2">
       <Navbar />
-      <Outlet />
+      <div className=" p-5">
+        <Outlet />
+      </div>
     </div>
   );
 };

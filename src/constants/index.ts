@@ -1,9 +1,12 @@
-export const catalog = {
+import type { Catalog } from "@/types";
+
+export const catalog: Catalog = {
   shoes: {
     adidas: [
       {
         name: "Samba",
-        preview: "/samba/samba_preview.jpeg",
+        preview: "/samba/samba-preview.jpeg",
+        price: 500000,
         variants: [
           {
             color: "white",
@@ -27,7 +30,8 @@ export const catalog = {
       },
       {
         name: "Superstar",
-        preview: "/superstar-preview.jpeg/",
+        preview: "superstar/superstar-preview.jpeg",
+        price: 500000,
         variants: [
           {
             color: "white",
